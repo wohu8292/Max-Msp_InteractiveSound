@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 820.0, 609.0 ],
+		"rect" : [ 34.0, 77.0, 1298.0, 609.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -201,7 +201,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 739.0, 505.0, 150.0, 62.0 ],
+					"patching_rect" : [ 739.0, 505.0, 153.0, 62.0 ],
 					"text" : "loadbang: loadbang object produces a bang message whenever the patch is loaded"
 				}
 
@@ -212,7 +212,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 368.0, 656.0, 54.0, 20.0 ],
+					"patching_rect" : [ 321.0, 531.0, 54.0, 20.0 ],
 					"text" : "value"
 				}
 
@@ -226,8 +226,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 427.0, 592.0, 105.0, 22.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 380.0, 467.0, 105.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"name" : "customTable",
@@ -251,7 +250,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 551.0, 592.0, 50.0, 22.0 ]
+					"patching_rect" : [ 504.0, 467.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -263,7 +262,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 470.0, 467.0, 50.0, 22.0 ]
+					"patching_rect" : [ 423.0, 342.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -274,7 +273,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 370.0, 632.0, 50.0, 22.0 ],
+					"patching_rect" : [ 323.0, 507.0, 50.0, 22.0 ],
 					"text" : "53"
 				}
 
@@ -287,7 +286,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 372.0, 554.0, 24.0, 24.0 ]
+					"patching_rect" : [ 325.0, 429.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -297,7 +296,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 427.0, 678.0, 49.0, 22.0 ],
+					"patching_rect" : [ 380.0, 553.0, 49.0, 22.0 ],
 					"text" : "noteout"
 				}
 
@@ -309,7 +308,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 427.0, 629.0, 108.0, 22.0 ],
+					"patching_rect" : [ 380.0, 504.0, 108.0, 22.0 ],
 					"text" : "makenote 100 200"
 				}
 
@@ -321,7 +320,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 420.0, 551.0, 82.0, 22.0 ],
+					"patching_rect" : [ 373.0, 426.0, 82.0, 22.0 ],
 					"text" : "counter 0 127"
 				}
 
@@ -334,7 +333,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 421.0, 477.0, 24.0, 24.0 ]
+					"patching_rect" : [ 374.0, 352.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -345,7 +344,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 421.0, 517.0, 63.0, 22.0 ],
+					"patching_rect" : [ 374.0, 392.0, 63.0, 22.0 ],
 					"text" : "metro 200"
 				}
 
@@ -357,7 +356,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 283.0, 586.0, 78.0, 34.0 ],
+					"patching_rect" : [ 236.0, 461.0, 78.0, 34.0 ],
 					"text" : "inspector > table name"
 				}
 
@@ -370,7 +369,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 128.0, 690.0, 50.0, 22.0 ]
+					"patching_rect" : [ 81.0, 565.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -383,7 +382,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 116.0, 525.0, 160.0, 145.0 ],
+					"patching_rect" : [ 69.0, 400.0, 160.0, 145.0 ],
 					"range" : 128,
 					"size" : 128,
 					"table_data" : [ 0, 59, 58, 89, 89, 80, 79, 79, 78, 78, 77, 76, 76, 76, 75, 75, 74, 74, 74, 73, 73, 72, 72, 72, 71, 71, 70, 70, 70, 69, 69, 69, 68, 68, 67, 67, 67, 66, 66, 66, 65, 65, 65, 64, 64, 64, 63, 63, 62, 62, 62, 62, 62, 61, 61, 60, 60, 60, 60, 59, 58, 56, 55, 54, 53, 52, 51, 50, 50, 49, 46, 45, 45, 44, 43, 42, 41, 40, 39, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 39, 39, 39, 39, 39, 39, 39, 40, 40, 40, 40, 40, 41, 41, 41, 41, 41, 41, 42, 42, 42, 42, 42, 43, 43, 43, 43, 43, 44, 44, 44, 44, 44, 44, 44, 108 ]
@@ -398,7 +397,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 116.0, 487.0, 50.0, 22.0 ]
+					"patching_rect" : [ 69.0, 362.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -409,7 +408,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 103.0, 444.0, 150.0, 34.0 ],
+					"patching_rect" : [ 56.0, 319.0, 150.0, 34.0 ],
 					"text" : "itable: showing table window on UI"
 				}
 
