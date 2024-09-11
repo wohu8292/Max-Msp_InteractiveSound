@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1298.0, 609.0 ],
+		"rect" : [ 134.0, 134.0, 1298.0, 609.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,17 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 130.0, 339.0, 150.0, 20.0 ],
+					"text" : "exercise"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-25",
 					"linecount" : 3,
 					"maxclass" : "comment",
@@ -58,7 +69,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 881.0, 515.0, 150.0, 34.0 ],
-					"presentation_linecount" : 2,
 					"text" : "seperates raw midi into standard message tiupes"
 				}
 
@@ -71,7 +81,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 816.0, 459.0, 150.0, 48.0 ],
-					"presentation_linecount" : 3,
 					"text" : "listens to midi port and outputs raw midi data recieved"
 				}
 
@@ -166,7 +175,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 214.0, 759.0, 150.0, 34.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Output of midiformat typically goes to midiout."
 				}
 
@@ -182,7 +190,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 453.0, 740.0, 296.0, 40.0 ],
-					"presentation_linecount" : 2,
 					"text" : "SENDS MIDI CC (Continuous Controllers)\nto external sythesizer"
 				}
 
@@ -195,7 +202,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 489.0, 535.0, 84.0, 34.0 ],
-					"presentation_linecount" : 2,
 					"text" : "midi pitch bend"
 				}
 
@@ -232,7 +238,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 376.0, 528.0, 103.0, 48.0 ],
-					"presentation_linecount" : 3,
 					"text" : "midi volume\nchannel 7\n(overall volume)"
 				}
 
@@ -257,7 +262,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 132.0, 795.0, 150.0, 34.0 ],
-					"presentation_linecount" : 2,
 					"text" : "transmits raw midi data to specified port"
 				}
 
@@ -270,7 +274,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 226.0, 716.0, 150.0, 34.0 ],
-					"presentation_linecount" : 2,
 					"text" : "prepare datat in form of midi message"
 				}
 
@@ -459,7 +462,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 132.0, 497.0, 32.0, 22.0 ],
-					"text" : "+ 56"
+					"text" : "+ 36"
 				}
 
 			}
