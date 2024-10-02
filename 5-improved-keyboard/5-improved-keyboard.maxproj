@@ -1,16 +1,16 @@
 {
-	"name" : "assignment3_max_Synth_part2",
+	"name" : "5-improved-keyboard",
 	"version" : 1,
-	"creationdate" : 3810503563,
-	"modificationdate" : 3810504537,
-	"viewrect" : [ 879.0, 169.0, 300.0, 500.0 ],
+	"creationdate" : 3810216496,
+	"modificationdate" : 3810216653,
+	"viewrect" : [ 25.0, 81.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"assignment3_maxSynth_part2 - Copy.maxpat" : 			{
+			"5-improved-keyboard.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
@@ -19,22 +19,20 @@
 		}
 ,
 		"media" : 		{
+			"banana.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
 
 		}
 ,
-		"other" : 		{
-			"Video_Game_Themes_-_Mario_Kart_64.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
+		"code" : 		{
+
+		}
 ,
-			"scott_joplin_-_Maple_Leaf_Rag.mid" : 			{
-				"kind" : "midifile",
-				"local" : 1
-			}
-,
-			"Undertale_-_Determination.mid" : 			{
-				"kind" : "midifile",
+		"data" : 		{
+			"banana.json" : 			{
+				"kind" : "json",
 				"local" : 1
 			}
 
