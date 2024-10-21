@@ -40,6 +40,120 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-20",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 282.0, 451.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 619.105257272720337, 709.631572484970093, 85.0, 20.0 ],
+					"text" : "filter"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-18",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 327.0, 496.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1036.210516452789307, 254.0, 85.0, 20.0 ],
+					"text" : "adding color"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-17",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 312.0, 481.0, 150.0, 34.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 227.0, 402.0, 135.0, 34.0 ],
+					"text" : "1 >> original source\n0 >> pixilated source"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-16",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 297.0, 466.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 140.789472341537476, 363.210522890090942, 135.0, 20.0 ],
+					"text" : "LFO for image pixilation"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-14",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 312.0, 481.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 855.315781354904175, 76.684209585189819, 85.0, 20.0 ],
+					"text" : "stop/play"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-12",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 297.0, 466.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 579.631573438644409, 76.684209585189819, 85.0, 20.0 ],
+					"text" : "projector"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-10",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 282.0, 451.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 140.789472341537476, 76.684209585189819, 85.0, 20.0 ],
+					"text" : "player"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-9",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 267.0, 436.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 280.789470195770264, 458.631574630737305, 85.0, 20.0 ],
+					"text" : "import video"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-11",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -156,7 +270,7 @@
 					"clipheight" : 53.871800104777016,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:/Users/gjdnd/Downloads/art-of-samples-buzz-120-bpm-audio-logo-245396.mp3",
+								"absolutepath" : "art-of-samples-buzz-120-bpm-audio-logo-245396.mp3",
 								"filename" : "art-of-samples-buzz-120-bpm-audio-logo-245396.mp3",
 								"filekind" : "audiofile",
 								"id" : "u583003922",
@@ -168,7 +282,7 @@
 
 							}
 , 							{
-								"absolutepath" : "C:/Users/gjdnd/Downloads/please-calm-my-mind-125566.mp3",
+								"absolutepath" : "please-calm-my-mind-125566.mp3",
 								"filename" : "please-calm-my-mind-125566.mp3",
 								"filekind" : "audiofile",
 								"id" : "u892003926",
@@ -180,7 +294,7 @@
 
 							}
 , 							{
-								"absolutepath" : "C:/Users/gjdnd/Downloads/calm-night-piano-music-249235.mp3",
+								"absolutepath" : "calm-night-piano-music-249235.mp3",
 								"filename" : "calm-night-piano-music-249235.mp3",
 								"filekind" : "audiofile",
 								"id" : "u732003930",
@@ -686,8 +800,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "art-of-samples-buzz-120-bpm-audio-logo-245396.mp3",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"bootpath" : "~/Desktop/MaxMsp",
+				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
@@ -711,8 +825,8 @@
 			}
 , 			{
 				"name" : "calm-night-piano-music-249235.mp3",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"bootpath" : "~/Desktop/MaxMsp",
+				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
@@ -743,8 +857,8 @@
 			}
 , 			{
 				"name" : "please-calm-my-mind-125566.mp3",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
+				"bootpath" : "~/Desktop/MaxMsp",
+				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
