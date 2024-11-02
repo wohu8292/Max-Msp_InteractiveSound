@@ -45,7 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 282.0, 451.0, 150.0, 20.0 ],
+					"patching_rect" : [ 1067.0, 45.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 619.105257272720337, 709.631572484970093, 85.0, 20.0 ],
 					"text" : "filter"
@@ -59,7 +59,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 327.0, 496.0, 150.0, 20.0 ],
+					"patching_rect" : [ 1000.0, 75.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1036.210516452789307, 254.0, 85.0, 20.0 ],
 					"text" : "adding color"
@@ -74,7 +74,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 312.0, 481.0, 150.0, 34.0 ],
+					"patching_rect" : [ 985.0, 60.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 227.0, 402.0, 135.0, 34.0 ],
@@ -89,7 +89,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 297.0, 466.0, 150.0, 20.0 ],
+					"patching_rect" : [ 970.0, 45.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 140.789472341537476, 363.210522890090942, 135.0, 20.0 ],
 					"text" : "LFO for image pixilation"
@@ -103,7 +103,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 312.0, 481.0, 150.0, 20.0 ],
+					"patching_rect" : [ 985.0, 60.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 855.315781354904175, 76.684209585189819, 85.0, 20.0 ],
 					"text" : "stop/play"
@@ -117,7 +117,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 297.0, 466.0, 150.0, 20.0 ],
+					"patching_rect" : [ 970.0, 45.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 579.631573438644409, 76.684209585189819, 85.0, 20.0 ],
 					"text" : "projector"
@@ -131,7 +131,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 282.0, 451.0, 150.0, 20.0 ],
+					"patching_rect" : [ 1051.0, 75.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 140.789472341537476, 76.684209585189819, 85.0, 20.0 ],
 					"text" : "player"
@@ -145,7 +145,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 267.0, 436.0, 150.0, 20.0 ],
+					"patching_rect" : [ 1021.0, 90.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 280.789470195770264, 458.631574630737305, 85.0, 20.0 ],
 					"text" : "import video"
