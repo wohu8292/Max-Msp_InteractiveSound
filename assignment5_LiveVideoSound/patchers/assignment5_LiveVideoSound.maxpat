@@ -352,7 +352,7 @@
 								"filename" : "please-calm-my-mind-125566.mp3",
 								"filekind" : "audiofile",
 								"id" : "u470005524",
-								"selection" : [ 0.120689655172414, 0.804597701149425 ],
+								"selection" : [ 0.294736842105263, 0.878947368421053 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0
@@ -943,7 +943,7 @@
 					"patching_rect" : [ 646.0, 496.0, 167.0, 58.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1029.999975442886353, 271.666660189628601, 232.0, 224.0 ],
-					"saturation" : 0.87843137254902
+					"saturation" : 1.0
 				}
 
 			}
@@ -1320,15 +1320,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
-					"order" : 2,
-					"source" : [ "obj-34", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-74", 2 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-34", 0 ]
 				}
 
@@ -1336,7 +1328,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-74", 1 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-34", 0 ]
 				}
 
