@@ -1507,7 +1507,7 @@
 , 			{
 				"name" : "titanium-170190.mp3",
 				"bootpath" : "~/Desktop/MaxMsp",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../..",
 				"type" : "Mp3",
 				"implicit" : 1
 			}
